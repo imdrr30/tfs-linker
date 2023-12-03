@@ -1,8 +1,6 @@
 import json
 import subprocess
 import os
-from pathlib import Path
-from typing import List
 import sys
 
 TFS_LINKER_FOLDER = ".tfslinker"

@@ -12,7 +12,7 @@ def get_input(message, default, failed=False):
 
 
 def auto_detect_workspace(cwd):
-    search_for = r"\Dev"
+    search_for = r"\Source"
     if search_for in cwd:
         index = cwd.find(search_for)
         return cwd[:index + len(search_for)]

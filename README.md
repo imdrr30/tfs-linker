@@ -2,7 +2,7 @@
 
 ### Installation:
 
-`pip install git+https://github.com/imdrr30/tfs-linker.git` from the systems python environment. Installing on virtual python environment will work.
+`pip install git+https://github.com/imdrr30/tfs-linker.git` from the systems python environment. Installing on virtual python environment will not work.
 
 ### Auto Setup for IntelliJ Based IDE:
 

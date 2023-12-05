@@ -2,14 +2,12 @@ import json
 import subprocess
 import os
 import sys
+from .exceptions import TFSConnectionFailed
+
 
 TFS_LINKER_FOLDER = ".tfslinker"
 WORKING_DIR = os.getcwd()
 QUEUE_KEY = "queue"
-
-
-class TFSConnectionFailed(Exception):
-    pass
 
 
 def get_queue_path():

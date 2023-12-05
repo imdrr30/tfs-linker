@@ -24,7 +24,6 @@ Follow these steps to configure File Watcher:
    - **Output Paths & Environment Variables:** Leave empty.
    
     <img src="docs/workingDirectory.png" alt="File Watcher Configuration" width="400"/>
-    <img src="docs/argumentsConfig.png" alt="File Watcher Configuration" width="400"/>
 
 4. Apply the changes and close the settings.
 

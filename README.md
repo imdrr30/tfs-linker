@@ -1,5 +1,9 @@
 # TFS Linker
 
+### Installation:
+
+`pip install git+https://github.com/imdrr30/tfs-linker.git` from the systems python environment. Installing on virtual python environment will work.
+
 ### Auto Setup for IntelliJ Based IDE:
 
 To set up TFS Linker in your IntelliJ-based IDE, follow these steps:

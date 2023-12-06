@@ -122,10 +122,7 @@ def configure_idea():
         with open(watchers_path, "w") as config_file:
             config_file.write(xml_config)
 
-        print("Configuration added.")
         print("Verify the added configuration at File->Settings->Tools->File Watchers, Look for TFS Linker.")
-        print("Added it manually in case if you can not find the TFS Linker: \n")
-
         print("Name: TFS Linker")
         print("Files to Watch:")
 
@@ -147,4 +144,7 @@ def configure_idea():
         print("\t\tShow console: On error")
         print("\t\tOutput filters: (leave empty)")
         print("Click on Ok to save.")
+        print("Configuration added Successfully.")
+        print("Verify the added configuration at File->Settings->Tools->File Watchers, Look for TFS Linker.")
+        print("Added it manually in case if you can not find the TFS Linker following the above steps.")
 

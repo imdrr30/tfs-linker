@@ -8,12 +8,12 @@
 
 To set up TFS Linker in your IntelliJ-based IDE, follow these steps:
 
-1. Run `tfs-linker-auto-config` in 'PowerShell' from the IDE's project path to initiate the configuration process.
+1. Run `tfs-linker-auto-config` in 'PowerShell' from the IDE's project path to initiate the configuration process. It will take care of linking process automagically.
 
     <img src="docs/autoConfig.png" alt="Auto Config File watcher" width="1000"/>
 
 
-### Manual setup for File Watcher:
+### Manual setup for File Watcher (If auto config doesn't work):
 
 Follow these steps to configure File Watcher:
 
